@@ -1,1 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     /* box-sizing: border-box; */
+}
+.portfolio{
+    margin: 20px;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px black;
+    height: auto;
+    display: flex;
+}
+.left{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    line-height: 30px;
+}
+
+
+#skl1{
+    width: 90%;
+    height: 10px;
+    border-radius: 3px;
+    background-color: blue;
+    margin-bottom: 20px;
+    
+}
+#skl2{
+    width: 60%;
+    height: 10px;
+    border-radius: 3px;
+    background-color: blue;
+    margin-bottom: 20px;
+    
+}
+#skl3{
+    width: 40%;
+    height: 10px;
+    border-radius: 3px;
+    background-color: blue;
+     margin-bottom: 20px;
+    
+}
+#skl4{
+    width: 30%;
+    height: 10px;
+    border-radius: 3px;
+    background-color: blue;
+     margin-bottom: 20px;
+    
+}
+.skillevel{
+    width: 80%;
+    background-color: #eee;
+
+}
+.about{
+   text-align: center;
+   width: 50%;
+   /* border: 2px solid black; */
+   margin: 20px;
+   text-align: justify;
+   padding: 50px;
+}
+.heading{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 3px;
+    margin: 5px;
+}
+
+@media(max-width:600px){
+ 
+    .portfolio{
+        flex-direction: column;
+        width: 100%
+    }
+    .about{
+        width: 80%;
+        text-align: justify;
+        padding: 30px;
+        margin: 20px;
+    }
+    
+    
+}
+
 
